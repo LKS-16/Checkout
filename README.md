@@ -65,3 +65,5 @@ O sistema completo é uma plataforma de delivery dividida em 15 microsserviços,
 | Promoções | código do cupom + valor do pedido | validação + valor do desconto | Consumido apenas por Carrinho/Pedidos |
 
 **Regra geral**: nenhum serviço externo acessa o banco de dados do Checkout diretamente (nem o inverso). Toda troca de dados entre domínios acontece exclusivamente via chamadas HTTP documentadas em Swagger.
+
+**Equipe**: Cesar Augusto, Enriko Matheus, Juliana de Andrade, Lukas de Araújo Assis
